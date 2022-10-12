@@ -1,7 +1,7 @@
 <?php
 
-namespace Shrft\AdminBar\Tests;
-use Shrft\AdminBar\MenuOption;
+namespace Digihood\AdminBar\Tests;
+use Digihood\AdminBar\MenuOption;
 use \Illuminate\Http\Request;
 use Mockery as m;
 

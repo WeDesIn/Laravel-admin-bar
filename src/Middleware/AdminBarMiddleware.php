@@ -1,10 +1,10 @@
 <?php
 
-namespace Shrft\AdminBar\Middleware;
+namespace Digihood\AdminBar\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
-use Shrft\AdminBar\AdminBar;
+use Digihood\AdminBar\AdminBar;
 
 class AdminBarMiddleware
 {

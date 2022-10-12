@@ -1,8 +1,8 @@
 <?php
 
-namespace Shrft\AdminBar\Tests;
+namespace Digihood\AdminBar\Tests;
 
-use Shrft\AdminBar\Menu;
+use Digihood\AdminBar\Menu;
 use \Illuminate\Http\Request;
 use Mockery as m;
 

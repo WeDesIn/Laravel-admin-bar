@@ -1,10 +1,10 @@
 <?php
 
-namespace Shrft\AdminBar\Tests;
+namespace Digihood\AdminBar\Tests;
 
 use \Illuminate\Http\Request;
 use Mockery as m;
-use Shrft\AdminBar\AdminBar;
+use Digihood\AdminBar\AdminBar;
 
 class AdminBarTest  extends TestCase{
     public function testShouldShowIfAdmin(){

@@ -19,18 +19,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Shrft\\AdminBar\\": "src/"
+            "Digihood\\AdminBar\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shrft\\AdminBar\\Tests\\": "tests/"
+            "Digihood\\AdminBar\\Tests\\": "tests/"
       }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Shrft\\AdminBar\\AdminBarServiceProvider"
+                "Digihood\\AdminBar\\AdminBarServiceProvider"
             ]
         }
     },

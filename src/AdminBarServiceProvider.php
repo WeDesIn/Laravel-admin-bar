@@ -1,7 +1,7 @@
 <?php
 
-namespace Shrft\AdminBar;
-use Shrft\AdminBar\Middleware\AdminBarMiddleware;
+namespace Digihood\AdminBar;
+use Digihood\AdminBar\Middleware\AdminBarMiddleware;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

@@ -1,5 +1,5 @@
 <?php
-namespace Shrft\AdminBar;
+namespace Digihood\AdminBar;
 
 class AdminBar{
     protected $request;
