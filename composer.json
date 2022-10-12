@@ -1,0 +1,42 @@
+{
+    "name": "shrft/laravel-admin-bar",
+    "description": "Add admin toolbar to your front side of your website.",
+    "keywords": ["framework", "laravel", "admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kodai shirafuta",
+            "email": "shirafuta.kodai@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0.0",
+        "laravel/framework": ">= 5.5.0"
+    },
+    "require-dev": {
+	"mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shrft\\AdminBar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shrft\\AdminBar\\Tests\\": "tests/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shrft\\AdminBar\\AdminBarServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
