@@ -1,12 +1,12 @@
 {
-    "name": "shrft/laravel-admin-bar",
+    "name": "digihood/laravel-admin-bar",
     "description": "Add admin toolbar to your front side of your website.",
     "keywords": ["framework", "laravel", "admin"],
     "license": "MIT",
     "authors": [
         {
-            "name": "kodai shirafuta",
-            "email": "shirafuta.kodai@gmail.com"
+            "name": "Digihood"
+          
         }
     ],
     "require": {
